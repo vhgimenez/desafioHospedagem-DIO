@@ -4,14 +4,14 @@ namespace DesafioProjetoHospedagem.Models
     {
         public Suite() { }
 
-        public Suite(string tipoSuite, int capacidade, decimal valorDiaria)
+        public Suite(string tipo, int capacidade, decimal valorDiaria)
         {
-            TipoSuite = tipoSuite;
+            Tipo = tipo;
             Capacidade = capacidade;
             ValorDiaria = valorDiaria;
         }
 
-        public string TipoSuite { get; set; }
+        public string Tipo { get; set; }
         public int Capacidade { get; set; }
         public decimal ValorDiaria { get; set; }
     }
